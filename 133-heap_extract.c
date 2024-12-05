@@ -1,6 +1,8 @@
 #include "binary_trees.h"
 #include <string.h>
 
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
 #define INIT_NODE {0, NULL, NULL, NULL}
 
 #define CONVERT "0123456789ABCDEF"
